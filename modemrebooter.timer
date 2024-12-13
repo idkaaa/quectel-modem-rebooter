@@ -1,0 +1,9 @@
+[Unit]
+Description=modemrebooter timer
+
+[Timer]
+OnUnitActiveSec=120s
+OnBootSec=3min
+
+[Install]
+WantedBy=timers.target

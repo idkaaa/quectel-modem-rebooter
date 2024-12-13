@@ -1,0 +1,11 @@
+[Unit]
+Description=modemrebooter job
+
+[Service]
+ExecStartPre=/bin/sleep 110
+Type=oneshot
+ExecStart=/bin/bash /usrdata/modemrebooter/modemrebooter.sh
+User=root
+
+[Install]
+WantedBy=multi-user.target
