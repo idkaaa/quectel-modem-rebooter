@@ -25,3 +25,9 @@ adb push modemrebooter/. /usrdata/modemrebooter
 
 adb shell /bin/sh /usrdata/modemrebooter/install.sh
 ```
+
+### Notes:
+
+Timer fires every 120 seconds with a 110 second delay before running connectivity check script. 
+
+Tried (and failed) to set boot delay, but ended up using the 110 second pre-execution delay as workaround.
