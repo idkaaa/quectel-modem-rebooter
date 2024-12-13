@@ -28,6 +28,8 @@ adb shell /bin/sh /usrdata/modemrebooter/install.sh
 
 ### Notes:
 
+Tested with RM502Q-AE
+
 Timer fires every 120 seconds with a 110 second delay before running connectivity check script. 
 
 Tried (and failed) to set boot delay, but ended up using the 110 second pre-execution delay as workaround.
